@@ -1,6 +1,19 @@
 # Freelance Task Manager API
 
 A role-based Laravel REST API for managing freelance tasks with three main user roles: **Admin**, **Client**, and **Freelancer**.
+---
+
+## ✨ Features
+
+- Role-based access control with Admin, Client, and Freelancer roles  
+- Authentication with Laravel Sanctum (token-based)  
+- Task management: clients can create, update, delete tasks  
+- Proposal system: freelancers can send proposals for tasks  
+- Admin panel APIs for user and task management  
+- Simple, clean RESTful API design  
+- Seeders for initial data setup  
+
+---
 
 ## 🔧 Tech Stack
 
@@ -75,6 +88,20 @@ php artisan serve
 
 You can import the Postman collection to test all APIs easily.
 
+---
+## 📌 Usage
+
+- Register users with different roles  
+- Clients create and manage tasks  
+- Freelancers browse tasks and send proposals  
+- Admin manages users and oversees tasks  
+
+---
+
+## 🔍 Project Status
+
+- Stable API with core features implemented  
+- Planned improvements: notifications, advanced filtering, frontend integration  
 ---
 
 ## ✅ License
